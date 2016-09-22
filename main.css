@@ -1,25 +1,21 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
-}
-
 .container {
   margin: 1em;
 }
 
 nav {
-  border-bottom: dotted black .1em;
-  padding: 1em;
+  border-bottom: solid gray .1em;
+  padding: 1em 0 1em 0;
 }
 
 nav ul li {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
+  display: inline;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .down_arrow {
@@ -27,12 +23,35 @@ nav ul li {
 }
 
 .ads {
-  border-left: dotted black .1em;
+  border-left: solid gray .1em;
   float: right;
-  width: 35%;
+  width: 30%;
+
 
 }
 
 .products {
+  float: left;
+  display: block;
+  width: 60%;
+}
 
+.product_img {
+  width: 30%;
+  padding: .5em;
+  background-color: blue;
+  float: left;
+}
+
+.desc_item {
+  float: right;
+  width: 65%;
+}
+
+.item_title {
+  color: rgb(0, 54, 113);
+}
+
+.f_right {
+  float: right;
 }
