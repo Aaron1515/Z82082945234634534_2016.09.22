@@ -1,0 +1,27 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.container {
+  margin: 1em;
+}
+
+nav {
+  border-bottom: dotted black .1em;
+  padding: 1em;
+}
+
+nav ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.down_arrow {
+  font-size: .5em;
+}
