@@ -25,3 +25,14 @@ nav ul li {
 .down_arrow {
   font-size: .5em;
 }
+
+.ads {
+  border-left: dotted black .1em;
+  float: right;
+  width: 35%;
+
+}
+
+.products {
+
+}
