@@ -41,9 +41,28 @@ nav ul li {
 nav ul li:hover {
   background-color: #175384;
   color: white;
-  border-radius: .3em;
 }
 
+nav ul li:hover .dropdown{
+  display: block;
+
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #175384;
+  min-width: 200px;
+
+}
+
+.dropdown a {
+  display: block;
+  text-decoration: none;
+  padding: 5px 8px;
+  font-size: .9em;
+  color: white;
+}
 
 nav ul {
   list-style-type: none;
