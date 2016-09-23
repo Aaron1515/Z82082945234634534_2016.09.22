@@ -13,21 +13,6 @@ hr {
   color: lightgray;
 }
 
-/*CSS Lib*/
-.container {
-  margin-left: 5%;
-  margin-right: 5%;
-
-}
-
-.f_right {
-  float: right;
-}
-
-.down_arrow {
-  font-size: .5em;
-}
-
 
 
 /*Main content CSS*/
@@ -36,9 +21,9 @@ hr {
 }
 
 
-
-
-/*Nav Bar*/
+/******************/
+/*****Nav Bar******/
+/******************/
 nav {
   border-bottom: solid gray 1px;
   padding: 1em 0 1em 0;
@@ -114,12 +99,14 @@ li:hover ul {
   border-left: none;
 }
 
+/******************/
 
 
 
 
-
-/*Products*/
+/******************/
+/****Products******/
+/******************/
 .products {
   float: left;
   width: 68%;
@@ -200,10 +187,13 @@ li:hover ul {
   font-size: 16px;
   color: #6d6d6d;
 }
+/******************/
 
 
 
-/*Right panel*/
+/******************/
+/****Right Panel***/
+/******************/
 .ads {
   width: 30%;
   float: right;
@@ -217,3 +207,23 @@ li:hover ul {
   margin: 0 0 10px auto;
   width: 90%;
 }
+/******************/
+
+
+
+/******************/
+/***CSS Lib********/
+/******************/
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.f_right {
+  float: right;
+}
+
+.down_arrow {
+  font-size: .5em;
+}
+/******************/
