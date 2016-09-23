@@ -57,7 +57,6 @@ nav ul li:hover .dropdown{
   position: absolute;
   background-color: #175384;
   min-width: 200px;
-
 }
 
 .dropdown a {
@@ -81,7 +80,7 @@ nav ul {
 
 .search_bar input {
   height: 24px;
-  width: 150px;
+  width: 200px;
   border-radius: .3em 0 0 .3em;
   float: left
 }
@@ -113,7 +112,7 @@ nav ul {
 .each_product {
   display: block;
   float: left;
-  margin-top: 1em;
+  margin-top: 30px;
   border-bottom: 1px lightgray solid;
   padding-right: 10px;
 }
@@ -159,9 +158,15 @@ nav ul {
 
 /*Right panel*/
 .ads {
-  width: 35%;
-  float: left;
+  width: 30%;
+  float: right;
+  border-left: lightgray solid 1px;
+  margin-top: 30px;
+
 }
 
 .ads img {
+  display: block;
+  margin: 0 0 10px auto;
+  width: 90%;
 }
