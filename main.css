@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 0;
+  color: lightgray;
+}
+
 /*CSS Lib*/
 .container {
   margin-left: 5%;
@@ -21,14 +30,13 @@
 
 
 
-
-
-
-/*Changing defaults*/
-hr {
-  margin: 0;
-  color: lightgray;
+/*Main content CSS*/
+.main {
+  width: 100%;
 }
+
+
+
 
 /*Nav Bar*/
 nav {
@@ -40,12 +48,13 @@ nav ul {
   list-style-type: none;
 }
 
-nav ul li {
+nav>ul>li {
   display: inline;
   color: #525252;
-  padding: .5em;
+  padding: 3px;
   font-size: 13px;
   position: relative;
+
 }
 
 nav ul li:hover {
@@ -61,13 +70,14 @@ ul ul {
   display: none;
   background-color: #175384;
   width: 150px;
+  z-index: 9;
 }
 
 ul ul a {
   color: white;
-  text-decoration: none;
   display: block;
   font-size: 12px;
+  padding: 5px;
 }
 
 li:hover ul {
@@ -105,10 +115,7 @@ li:hover ul {
 }
 
 
-/*Main content CSS*/
-.main {
-  width: 100%;
-}
+
 
 
 
