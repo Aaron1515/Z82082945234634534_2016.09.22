@@ -36,39 +36,45 @@ nav {
   padding: 1em 0 1em 0;
 }
 
+nav ul {
+  list-style-type: none;
+}
+
 nav ul li {
   display: inline;
   color: #525252;
   padding: .5em;
+  font-size: 13px;
+  position: relative;
 }
 
 nav ul li:hover {
   background-color: #175384;
+  border-radius: .2em .2em 0 0;
   color: white;
 }
 
-nav ul li:hover .dropdown{
-  display: block;
 
-}
-
-.dropdown {
-  display: none;
+/*Nav drop down*/
+ul ul {
   position: absolute;
+  display: none;
   background-color: #175384;
-  min-width: 200px;
+  width: 150px;
 }
 
-.dropdown a {
-  display: block;
-  text-decoration: none;
-  padding: 5px 8px;
-  font-size: .9em;
+ul ul a {
   color: white;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
 }
 
-nav ul {
-  list-style-type: none;
+li:hover ul {
+  display: block;
+  left: 0;
+  border-radius: 0 .2em .2em .2em;
+  padding-left: 5px;
 }
 
 
@@ -123,7 +129,7 @@ nav ul {
 
 
 /*Product Image*/
-.temp {
+.product_container {
   position: absolute;
   width: 20%;
 }
@@ -139,7 +145,7 @@ nav ul {
 .product_img_word {
   width: 92%;
   background-color: #175384;
-  margin: 0 .3em 0 .3em;
+  margin: 0 .3em .3em .3em;
   position: absolute;
   display: block;
   bottom: 0;
